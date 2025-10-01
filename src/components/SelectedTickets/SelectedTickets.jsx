@@ -29,8 +29,8 @@ const SelectedTickets = ({ ticket, handleTicket }) => {
                         {ticket.priority}
                     </span>
                 </div>
-                <div className="flex gap-4">
-                    <p>{ticket.customer}</p>
+                <div className="flex gap-2 items-center">
+                    <p><small>{ticket.customer}</small></p>
                     <div className="flex gap-2">
                         <img
                             src="https://i.ibb.co.com/kVDgXTzd/ri-calendar-line.png"
