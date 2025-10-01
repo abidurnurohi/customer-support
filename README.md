@@ -25,3 +25,10 @@ Props are used o pass data from a parent component to child component and read-o
 State is managed within a component itself and can change over time, usually in response to user actions
 
 What is the useState hook, and how does it work?
+It's a react function that lets you add state to functional components. It works by returning an array with two values.
+
+How can you share state between components in React?
+By lifting the states up to a common parent component and passing it down as props. 
+
+How is event handling done in React?
+It is the process of managing user interactions using event handler functions. It uses camelCase syntax and passes functions instead of strings unlike plain HTML
