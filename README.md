@@ -14,3 +14,14 @@ The React Compiler is not enabled on this template. To add it, see [this documen
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+Question $ Answer
+What is JSX, and why is it used?
+JSX is a syntax extension for JavaScript (JS) that looks like HTML and it is used with React. It allows developers to write UI components in a more readable and declarative way by mixing markup with JS logic.
+
+What is the difference between State and Props?
+Props are used o pass data from a parent component to child component and read-only. 
+State is managed within a component itself and can change over time, usually in response to user actions
+
+What is the useState hook, and how does it work?
