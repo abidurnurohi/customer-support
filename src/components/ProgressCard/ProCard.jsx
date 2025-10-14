@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProCard = ({ticket, handleResolved}) => {
     return (
-        <div className="bg-white shadow-md rounded-md p-4 w-[300px]">
+        <div className="bg-white shadow-md rounded-md p-4 max-w-[300px]">
             <h3 className="text-sm font-semibold text-gray-800 mb-3">
                 {ticket.title}
             </h3>
